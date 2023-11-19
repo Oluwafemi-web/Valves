@@ -127,6 +127,9 @@ video {
 
 @media screen and (max-width: 1024px) {
   .main-section {
-    width: 2400px !important;
+    width: 1400px;
+  }
+  .header {
+    top: 3%;
   }
 }
