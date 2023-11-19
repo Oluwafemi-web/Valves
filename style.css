@@ -135,4 +135,8 @@ video {
     width: 100vw;
     height: 100%;
   }
+  .pin {
+    padding: 6px;
+    font-size: 10px;
+  }
 }
