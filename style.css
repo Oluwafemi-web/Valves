@@ -15,7 +15,7 @@ video {
 .main-section {
   position: relative;
   z-index: 1;
-  width: 1400px;
+  width: 80vw;
   height: 90vh;
   margin: 0 auto;
   overflow: hidden;
@@ -28,6 +28,9 @@ video {
   /* justify-content: space-around; */
   text-align: center;
   text-transform: uppercase;
+  position: absolute;
+  width: 100%;
+  top: 7%;
 }
 .header li:first-child,
 .header li:nth-child(2) {
@@ -124,6 +127,6 @@ video {
 
 @media screen and (max-width: 1024px) {
   .main-section {
-    width: 1400px;
+    width: 2400px !important;
   }
 }
