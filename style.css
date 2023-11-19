@@ -30,7 +30,7 @@ video {
   text-transform: uppercase;
   position: absolute;
   width: 100%;
-  top: 7%;
+  margin: 0;
 }
 .header li:first-child,
 .header li:nth-child(2) {
@@ -127,18 +127,12 @@ video {
 
 @media screen and (max-width: 1024px) and (orientation: portrait) {
   .main-section {
-    width: 1400px;
-  }
-  .header {
-    top: 3%;
+    width: 2400px !important;
   }
 }
 @media screen and (max-width: 1024px) and (orientation: landscape) {
   .main-section {
-    /* width: 1400px; */
+    width: 100%;
     height: 100%;
-  }
-  .header {
-    top: 3%;
   }
 }
