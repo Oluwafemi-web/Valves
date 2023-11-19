@@ -44,3 +44,48 @@ document.addEventListener("mouseup", function (event) {
     }
   }
 });
+
+// Select all elements with the class of pin-wrapper
+// var pinWrapperElements = document.querySelectorAll(".pin-wrapper");
+
+// // Popup function
+// function valveDetailFunction(element) {
+//   // Get the data-detail attribute value
+//   var dataDetailValue = element.getAttribute("data-details");
+//   console.log(dataDetailValue);
+//   // Select the corresponding element by ID
+//   var x = document.querySelector("[data-details='" + dataDetailValue + "']");
+
+//   // Toggle the display
+//   x.style.display = x.style.display === "none" ? "block" : "none";
+// }
+
+// // Add event listeners to each pin-wrapper element
+// pinWrapperElements.forEach(function (element) {
+//   element.addEventListener("click", function (e) {
+//     e.preventDefault();
+//     valveDetailFunction(element);
+//   });
+// });
+
+// // Function to handle document mouseup event
+// function handleDocumentMouseup(targetId) {
+//   return function (event) {
+//     var obj = document.getElementById(targetId);
+//     if (!obj.contains(event.target)) {
+//       if (obj.style.display === "block") {
+//         obj.style.display = "none";
+//       }
+//     }
+//   };
+// }
+
+// // Add document mouseup event listeners
+// document.addEventListener(
+//   "mouseup",
+//   handleDocumentMouseup("main-altitude-open")
+// );
+// document.addEventListener(
+//   "mouseup",
+//   handleDocumentMouseup("main-altitudeAuto-open")
+// );

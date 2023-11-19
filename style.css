@@ -132,7 +132,7 @@ video {
 }
 @media screen and (max-width: 1024px) and (orientation: landscape) {
   .main-section {
-    width: 100%;
+    width: 100vw;
     height: 100%;
   }
 }
