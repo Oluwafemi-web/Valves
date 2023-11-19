@@ -125,9 +125,18 @@ video {
   left: 68%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (orientation: portrait) {
   .main-section {
     width: 1400px;
+  }
+  .header {
+    top: 3%;
+  }
+}
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  .main-section {
+    /* width: 1400px; */
+    height: 100%;
   }
   .header {
     top: 3%;
