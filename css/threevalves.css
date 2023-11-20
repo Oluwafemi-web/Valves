@@ -131,7 +131,7 @@ video {
   color: #332e84;
   padding: 20px;
   border-radius: 15px;
-  width: 278px;
+  width: 10vw;
   font-weight: 700;
   display: flex;
   align-items: center;
@@ -221,5 +221,26 @@ video {
   .bottom-part {
     width: 98%;
     margin: 0 1%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .header {
+    top: 5%;
+  }
+  .two {
+    left: 11%;
+  }
+}
+@media screen and (min-width: 2800px) {
+  .header {
+    top: 13%;
+  }
+  .one {
+    top: 21%;
+    left: 58%;
+  }
+
+  .bottom-part {
+    bottom: 21%;
   }
 }
