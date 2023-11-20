@@ -1,7 +1,8 @@
-/** @format */
+@import url("https://use.typekit.net/jfx1zdi.css");
 
 body {
   background-color: #292321;
+  font-family: "myriad-pro", sans-serif;
 }
 .main-section {
   position: relative;
