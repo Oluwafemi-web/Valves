@@ -1,0 +1,211 @@
+/** @format */
+
+body {
+  background-color: #4a4a4a;
+}
+.main-section {
+  position: relative;
+  z-index: 1;
+  width: 1250px;
+  height: 768px;
+  margin: 0 auto;
+  /* overflow: hidden; */
+}
+video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: inherit;
+  height: auto;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.header {
+  display: flex;
+  background-color: #fff;
+  list-style: none;
+  padding: 0;
+  /* justify-content: space-around; */
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  width: 100%;
+  margin: 0;
+}
+.header li:first-child,
+.header li:nth-child(2) {
+  border-right: 2px solid #4a4a4a;
+}
+.header li {
+  padding: 20px;
+  flex-basis: 33.3%;
+  cursor: pointer;
+}
+.header li.active {
+  border-bottom: 4px solid rgb(178, 67, 67);
+}
+.pin a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.6rem;
+}
+.pin {
+  background-color: #2e3271;
+  border-radius: 15px;
+  color: #fff;
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+  width: max-content;
+  opacity: 0.9;
+  position: absolute;
+}
+.pin.pin a:hover {
+  opacity: 0.6;
+}
+.pin1 {
+  top: 19rem;
+  left: 9.5rem;
+}
+.pin2 {
+  top: 19rem;
+  left: 1.5rem;
+}
+.pin3 {
+  top: 17rem;
+  left: 3.2rem;
+}
+.pin4 {
+  top: 56%;
+  left: 85%;
+  background-color: green;
+}
+.pin5 {
+  top: 66%;
+  left: 34%;
+  background-color: green;
+}
+.pin6 {
+  bottom: 5.3rem;
+  right: 3.5rem;
+}
+.pin7 {
+  top: 29.5rem;
+  right: 38rem;
+}
+.pin8 {
+  top: 26rem;
+  left: 26rem;
+}
+.pin9 {
+  bottom: 3.4rem;
+  left: 25rem;
+}
+.pin10 {
+  bottom: 3.5rem;
+  left: 7rem;
+}
+.pin11 {
+  top: 28.5rem;
+  left: 5rem;
+}
+.pin12 {
+  top: 22rem;
+  right: 24.5rem;
+}
+.pin13 {
+  top: 22rem;
+  left: 15.5rem;
+}
+.pin14 {
+  top: 21rem;
+  left: 2rem;
+}
+.pin15 {
+  top: 18rem;
+  right: 42.7rem;
+}
+.pin16 {
+  bottom: 4rem;
+  right: 19rem;
+}
+.pin16 {
+  bottom: 5rem;
+  right: 20.5rem;
+}
+.pin17 {
+  bottom: 16.5rem;
+  left: 4rem;
+}
+.pin18 {
+  bottom: 20rem;
+  left: 17rem;
+}
+.pin19 {
+  bottom: 5.5rem;
+  left: 19rem;
+}
+.pin20 {
+  bottom: 19.5rem;
+  left: 30rem;
+}
+.pin21 {
+  bottom: 4.3rem;
+  left: 29.5rem;
+}
+.pin22 {
+  top: 16rem;
+  left: 34.8rem;
+}
+.pin23 {
+  top: 16.5rem;
+  right: 25.8rem;
+}
+.pin24 {
+  bottom: 14.5rem;
+  right: 21.5rem;
+}
+.pin25 {
+  bottom: 3rem;
+  right: 17rem;
+}
+.pin26 {
+  top: 17rem;
+  right: 12rem;
+}
+.pin27 {
+  top: 16.5rem;
+  right: 5.5rem;
+}
+.pin28 {
+  top: 19.5rem;
+  right: 7.5rem;
+}
+.pin29 {
+  top: 24.2rem;
+  right: 8.5rem;
+}
+.pin30 {
+  top: 27rem;
+  right: 2rem;
+}
+.pin31 {
+  bottom: 10.5rem;
+  right: 10rem;
+}
+
+@media screen and (max-width: 1024px) and (orientation: portrait) {
+  .main-section {
+    width: 2400px !important;
+  }
+}
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  .main-section {
+    width: 100vw;
+    height: 100%;
+  }
+  .pin {
+    padding: 6px;
+    font-size: 10px;
+  }
+}
