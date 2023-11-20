@@ -43,13 +43,21 @@ function handleDocumentMouseup(targetId) {
     }
   };
 }
+document.addEventListener("mouseup", function (event) {
+  var targetId = event.target.getAttribute("id");
+
+  // Check if the target is a popup or a pin-wrapper element
+  if (!targetId || !targetId.startsWith("main-altitude-")) {
+    hideAllPopups();
+  }
+});
 
 // Add document mouseup event listeners
-document.addEventListener(
-  "mouseup",
-  handleDocumentMouseup("main-altitude-open")
-);
-document.addEventListener(
-  "mouseup",
-  handleDocumentMouseup("main-altitudeAuto-open")
-);
+// document.addEventListener(
+//   "mouseup",
+//   handleDocumentMouseup("main-altitude-open")
+// );
+// document.addEventListener(
+//   "mouseup",
+//   handleDocumentMouseup("main-altitudeAuto-open")
+// );
