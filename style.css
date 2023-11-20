@@ -1,5 +1,15 @@
+/** @format */
+
 body {
   background-color: #4a4a4a;
+}
+.main-section {
+  position: relative;
+  z-index: 1;
+  width: 1250px;
+  height: 768px;
+  margin: 0 auto;
+  /* overflow: hidden; */
 }
 video {
   position: absolute;
@@ -11,14 +21,6 @@ video {
   height: auto;
   transform: translate(-50%, -50%);
   z-index: -1;
-}
-.main-section {
-  position: relative;
-  z-index: 1;
-  width: 80vw;
-  height: 90vh;
-  margin: 0 auto;
-  overflow: hidden;
 }
 .header {
   display: flex;
@@ -47,12 +49,13 @@ video {
 .pin a {
   text-decoration: none;
   color: #fff;
+  font-size: 0.6rem;
 }
 .pin {
-  background-color: #43467d;
+  background-color: #2e3271;
   border-radius: 15px;
   color: #fff;
-  padding: 10px;
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
   width: max-content;
   opacity: 0.9;
   position: absolute;
@@ -60,69 +63,135 @@ video {
 .pin.pin a:hover {
   opacity: 0.6;
 }
-.one {
-  top: 40%;
-  left: 17%;
+.pin1 {
+  top: 19rem;
+  left: 9.5rem;
 }
-.two {
-  top: 35%;
-  left: 2%;
+.pin2 {
+  top: 19rem;
+  left: 1.5rem;
 }
-.three {
-  top: 35%;
-  left: 70%;
+.pin3 {
+  top: 17rem;
+  left: 3.2rem;
 }
-.four {
+.pin4 {
   top: 56%;
   left: 85%;
+  background-color: green;
 }
-.five {
+.pin5 {
   top: 66%;
   left: 34%;
+  background-color: green;
 }
-.six {
-  top: 85%;
-  left: 90%;
+.pin6 {
+  bottom: 5.3rem;
+  right: 3.5rem;
 }
-.seven {
-  top: 60%;
-  left: 58%;
+.pin7 {
+  top: 29.5rem;
+  right: 38rem;
 }
-.eight {
-  top: 53%;
-  left: 45%;
+.pin8 {
+  top: 26rem;
+  left: 26rem;
 }
-.nine {
-  top: 87%;
-  left: 35%;
+.pin9 {
+  bottom: 3.4rem;
+  left: 25rem;
 }
-.ten {
-  top: 83%;
-  left: 5%;
+.pin10 {
+  bottom: 3.5rem;
+  left: 7rem;
 }
-.eleven {
-  top: 62%;
-  left: 5%;
+.pin11 {
+  top: 28.5rem;
+  left: 5rem;
 }
-.twelve {
-  top: 53%;
-  left: 68%;
+.pin12 {
+  top: 22rem;
+  right: 24.5rem;
 }
-.thirteen {
-  top: 50%;
-  left: 28%;
+.pin13 {
+  top: 22rem;
+  left: 15.5rem;
 }
-.fourteen {
-  top: 45%;
-  left: 5%;
+.pin14 {
+  top: 21rem;
+  left: 2rem;
 }
-.fifteen {
-  top: 39%;
-  left: 40%;
+.pin15 {
+  top: 18rem;
+  right: 42.7rem;
 }
-.sixteen {
-  top: 83%;
-  left: 68%;
+.pin16 {
+  bottom: 4rem;
+  right: 19rem;
+}
+.pin16 {
+  bottom: 5rem;
+  right: 20.5rem;
+}
+.pin17 {
+  bottom: 16.5rem;
+  left: 4rem;
+}
+.pin18 {
+  bottom: 20rem;
+  left: 17rem;
+}
+.pin19 {
+  bottom: 5.5rem;
+  left: 19rem;
+}
+.pin20 {
+  bottom: 19.5rem;
+  left: 30rem;
+}
+.pin21 {
+  bottom: 4.3rem;
+  left: 29.5rem;
+}
+.pin22 {
+  top: 16rem;
+  left: 34.8rem;
+}
+.pin23 {
+  top: 16.5rem;
+  right: 25.8rem;
+}
+.pin24 {
+  bottom: 14.5rem;
+  right: 21.5rem;
+}
+.pin25 {
+  bottom: 3rem;
+  right: 17rem;
+}
+.pin26 {
+  top: 17rem;
+  right: 12rem;
+}
+.pin27 {
+  top: 16.5rem;
+  right: 5.5rem;
+}
+.pin28 {
+  top: 19.5rem;
+  right: 7.5rem;
+}
+.pin29 {
+  top: 24.2rem;
+  right: 8.5rem;
+}
+.pin30 {
+  top: 27rem;
+  right: 2rem;
+}
+.pin31 {
+  bottom: 10.5rem;
+  right: 10rem;
 }
 
 @media screen and (max-width: 1024px) and (orientation: portrait) {
