@@ -189,6 +189,10 @@ video {
   .main-section {
     width: 1400px;
   }
+  .one {
+    top: 15%;
+    left: 51%;
+  }
 }
 @media screen and (max-width: 1024px) and (orientation: landscape) {
   .main-section {
@@ -201,6 +205,9 @@ video {
   }
   .two {
     left: 8%;
+  }
+  .header {
+    top: 3%;
   }
   .product {
     width: 170px;
