@@ -208,6 +208,25 @@ video {
   bottom: 10.5rem;
   right: 10rem;
 }
+.site-footer {
+  display: flex;
+  position: absolute;
+  bottom: 0.5rem;
+  width: 100%;
+  color: #fff;
+  justify-content: space-between;
+  font-size: 22px;
+}
+.site-footer ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  gap: 10px;
+}
+.site-footer a {
+  text-decoration: none;
+  color: #fff;
+}
 
 @media screen and (max-width: 1024px) and (orientation: portrait) {
   .main-section {
