@@ -188,7 +188,9 @@ video {
   border-radius: 7px;
   padding: 10px;
 }
-@media screen and (max-width: 1024px) and (orientation: portrait) {
+
+
+/* @media screen and (max-width: 1024px) and (orientation: portrait) {
   .main-section {
     width: 1400px;
   }
@@ -223,4 +225,4 @@ video {
     width: 98%;
     margin: 0 1%;
   }
-}
+} */
