@@ -123,13 +123,13 @@
             </div>
             <div class="share-and-contact">
                 <div class="share">
-                    <a>
+                    <a href="#" id="shareButton">
                         <i class="fa-solid fa-share-from-square"></i>
                         Share
                     </a>
                 </div>
                 <div class="share">
-                    <a href="">
+                    <a href="https://www.sierra-eg.com/contact/">
                         <i class="fa-solid fa-user"></i>
                         Contact
 
@@ -156,6 +156,27 @@
     </section>
 
     <script src="popup.js"></script>
-</body>
+    <script>
+        if (navigator.share) {
+            // Select the share button
+            var shareButton = document.getElementById('shareButton');
+
+            // Add a click event listener to the share button
+            shareButton.addEventListener('click', function () {
+                // Call the share method
+                navigator.share({
+                    title: 'Sierra',
+                    text: 'Sierra Water valves',
+                    url: window.location.href
+                })
+                    .then(() => console.log('Successfully shared'))
+                    .catch((error) => console.error('Error sharing:', error));
+            });
+        } else {
+            // Fallback for browsers that do not support the Web Share API
+            console.warn('Web Share API is not supported in this browser.');
+            // You can provide an alternative sharing method or UI here
+        }
+    </script>
 
 </html>
