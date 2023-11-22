@@ -17,7 +17,7 @@
         <ul class="header">
             <li class="nav"><a href="index.html">
                     <i class="fa-solid fa-house fa-xl"></i>
-                </a>Flow Limiting VaLves</li>
+                </a>Flow Limiting Valves</li>
             <li class="logo"><img src="Resources/sierra-logo.png" /></li>
         </ul>
         <div class="map-pins">
@@ -123,13 +123,13 @@
             </div>
             <div class="share-and-contact">
                 <div class="share">
-                    <a>
+                    <a href="#" id="shareButton">
                         <i class="fa-solid fa-share-from-square"></i>
                         Share
                     </a>
                 </div>
                 <div class="share">
-                    <a href="">
+                    <a href="https://www.sierra-eg.com/contact/">
                         <i class="fa-solid fa-user"></i>
                         Contact
 
@@ -146,9 +146,9 @@
                 <ul>
                     <li><span>Follow us</span></li>
                     <li><a href="https://www.facebook.com/SIERRAENGINEERINGANDMANUFACTURING/?ref=pages_you_manage" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.instagram.com/sierra_valves/"><i class="fa-brands fa-instagram"></i></a></li>
                     <li><a href="https://www.linkedin.com/company/sierra-engineering-manufacturing/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                    <li><a href="https://twitter.com/sierraengineer1?lang=en"><i class="fa-brands fa-x-twitter"></i></a></li>
                     <li><a href="https://www.youtube.com/channel/UCMfGrkghq148X0JYdd7Ge_A" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
                 </ul>
             </div>
@@ -156,6 +156,27 @@
     </section>
 
     <script src="popup.js"></script>
-</body>
+    <script>
+        if (navigator.share) {
+            // Select the share button
+            var shareButton = document.getElementById('shareButton');
+
+            // Add a click event listener to the share button
+            shareButton.addEventListener('click', function () {
+                // Call the share method
+                navigator.share({
+                    title: 'Sierra',
+                    text: 'Sierra Water valves',
+                    url: window.location.href
+                })
+                    .then(() => console.log('Successfully shared'))
+                    .catch((error) => console.error('Error sharing:', error));
+            });
+        } else {
+            // Fallback for browsers that do not support the Web Share API
+            console.warn('Web Share API is not supported in this browser.');
+            // You can provide an alternative sharing method or UI here
+        }
+    </script>
 
 </html>
