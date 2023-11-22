@@ -15,6 +15,7 @@ body {
   width: 1250px;
   height: 768px;
   margin: 0 auto;
+  margin-top: 5rem;
   /* overflow: hidden; */
 }
 video {
