@@ -1,5 +1,12 @@
+/** @format */
+
 @import url("https://use.typekit.net/jfx1zdi.css");
 
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 body {
   background-color: #4a4a4a;
   font-family: "myriad-pro", sans-serif;
@@ -210,7 +217,109 @@ video {
 }
 .altitude-content-img img {
   width: 100%;
-} /* @media screen and (max-width: 1024px) and (orientation: portrait) {
+}
+
+@media screen and (max-width: 1200px) {
+  .main-section {
+    position: relative;
+    z-index: 1;
+    width: 1150px;
+    height: 700px;
+    margin: 0 auto;
+  }
+  video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: inherit;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  .one {
+    top: 5rem;
+    right: 2rem;
+  }
+  .two {
+    bottom: 19rem;
+    left: 8rem;
+  }
+  .three {
+    top: 19rem;
+    right: -11rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main-section {
+    position: relative;
+    z-index: 1;
+    width: 1000px;
+    height: 700px;
+    margin: 0 auto;
+  }
+  video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: inherit;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  .one {
+    top: 5.5rem;
+    right: -2rem;
+  }
+  .two {
+    bottom: 20rem;
+    left: 5.5rem;
+  }
+  .three {
+    top: 19.5rem;
+    right: -14rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-section {
+    position: relative;
+    z-index: 1;
+    width: 1000px;
+    height: 700px;
+    margin: 0 auto;
+    overflow: scroll;
+  }
+  video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: inherit;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  .one {
+    top: 5.5rem;
+    right: -2rem;
+  }
+  .two {
+    bottom: 20rem;
+    left: 5.5rem;
+  }
+  .three {
+    top: 19.5rem;
+    right: -14rem;
+  }
+}
+
+/* @media screen and (max-width: 1024px) and (orientation: portrait) {
   .main-section {
     width: 1400px;
   }
