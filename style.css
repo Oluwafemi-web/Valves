@@ -1,9 +1,9 @@
 @import url("https://use.typekit.net/jfx1zdi.css");
 
 * {
-     margin:0px;
-     padding:0px;
-     box-sizing:border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 body {
   background-color: #292321;
@@ -216,7 +216,7 @@ video {
 .site-footer {
   display: flex;
   position: absolute;
-  bottom: 0.5rem;
+  bottom: 0rem;
   width: 100%;
   color: #fff;
   justify-content: space-between;
@@ -248,4 +248,3 @@ video {
     font-size: 10px;
   }
 }
-
