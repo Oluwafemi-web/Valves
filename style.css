@@ -40,6 +40,7 @@ video {
   position: absolute;
   width: 100%;
   margin: 0;
+  padding: 0 1rem;
 }
 .nav {
   display: flex;
@@ -65,7 +66,7 @@ video {
   border-right: none;
 }
 .header img {
-  width: 50%;
+  width: 20%;
 }
 .pin a {
   text-decoration: none;
@@ -217,11 +218,11 @@ video {
 .site-footer {
   display: flex;
   position: absolute;
-  bottom: 0.5rem;
+  bottom: 0rem;
   width: 100%;
   color: #fff;
   justify-content: space-between;
-  font-size: 22px;
+  font-size: 15px;
 }
 .site-footer ul {
   display: flex;
@@ -480,77 +481,5 @@ video {
     top: 20rem;
     left: 13rem;
   }
-  .pin14 {
-    top: 20rem;
-    left: 1rem;
-  }
-  .pin15 {
-    top: 17rem;
-    right: 34rem;
-  }
-  .pin16 {
-    bottom: 6.5rem;
-    right: 16.5rem;
-  }
-  .pin17 {
-    bottom: 15.5rem;
-    left: 2.5rem;
-  }
-  .pin18 {
-    bottom: 18.5rem;
-    left: 13.5rem;
-  }
-  .pin19 {
-    bottom: 6.7rem;
-    left: 15rem;
-  }
-  .pin20 {
-    bottom: 18.5rem;
-    left: 24.5rem;
-  }
-  .pin21 {
-    bottom: 6.2rem;
-    left: 25.5rem;
-  }
-  .pin22 {
-    top: 15rem;
-    left: 28.5rem;
-  }
-  .pin23 {
-    top: 16rem;
-    right: 19rem;
-  }
-  .pin24 {
-    bottom: 14.5rem;
-    right: 16.5rem;
-  }
-  .pin25 {
-    bottom: 4.9rem;
-    right: 13.5rem;
-  }
-  .pin26 {
-    top: 16.5rem;
-    right: 9rem;
-  }
-  .pin27 {
-    top: 16rem;
-    right: 3.8rem;
-  }
-  .pin28 {
-    top: 18.5rem;
-    right: 6rem;
-  }
-  .pin29 {
-    top: 22rem;
-    right: 6.5rem;
-  }
-  .pin30 {
-    top: 24.5rem;
-    right: 1.5rem;
-  }
-  .pin31 {
-    bottom: 11rem;
-    right: 9rem;
-    background: black;
-  }
 }
+
