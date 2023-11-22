@@ -40,6 +40,7 @@ video {
   position: absolute;
   width: 100%;
   margin: 0;
+  padding: 0 1rem;
 }
 .nav {
   display: flex;
@@ -65,7 +66,7 @@ video {
   border-right: none;
 }
 .header img {
-  width: 50%;
+  width: 20%;
 }
 .pin a {
   text-decoration: none;
