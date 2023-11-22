@@ -16,7 +16,7 @@ body {
   z-index: 1;
   width: 1250px;
   height: 768px;
-  margin: 0 auto;
+  margin: 2rem auto 0rem auto;
 }
 video {
   position: absolute;
@@ -241,8 +241,7 @@ video {
     z-index: 1;
     width: 1250px;
     height: 768px;
-    margin: 0 auto;
-    /* overflow: hidden; */
+    margin: 2rem auto 0rem auto;
   }
   video {
     position: absolute;
@@ -262,8 +261,7 @@ video {
     z-index: 1;
     width: 1150px;
     height: 768px;
-    margin: 0 auto;
-    /* overflow: hidden; */
+    margin: 2rem auto 0rem auto;
   }
   video {
     position: absolute;
@@ -409,7 +407,7 @@ video {
     z-index: 1;
     width: 1000px;
     height: 700px;
-    margin: 0 auto;
+    margin: 2rem auto 0rem auto;
   }
   video {
     position: absolute;
@@ -482,4 +480,3 @@ video {
     left: 13rem;
   }
 }
-
