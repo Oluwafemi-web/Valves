@@ -1,6 +1,11 @@
 /** @format */
 
-@import url("https://use.typekit.net/jfx1zdi.css");
+/**@import url("https://use.typekit.net/jfx1zdi.css");**/
+
+@font-face {
+  font-family: myriad-pro;
+  src: url(MyriadRegular.tff);
+}
 
 * {
   /* margin: 0px;
