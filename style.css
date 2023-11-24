@@ -244,26 +244,6 @@ video {
   .main-section {
     position: relative;
     z-index: 1;
-    width: 1250px;
-    height: 768px;
-    margin: 2rem auto 0rem auto;
-  }
-  video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: inherit;
-    height: auto;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .main-section {
-    position: relative;
-    z-index: 1;
     width: 1150px;
     height: 768px;
     margin: 2rem auto 0rem auto;
@@ -284,12 +264,12 @@ video {
     left: 8rem;
   }
   .pin2 {
-    top: 19.5rem;
+    top: 19.3rem;
     left: 1rem;
   }
   .pin3 {
     top: 17.5rem;
-    left: 2rem;
+    left: 2.5rem;
   }
   .pin4 {
     top: 56%;
@@ -302,108 +282,263 @@ video {
     background-color: green;
   }
   .pin6 {
-    bottom: 6.3rem;
-    right: 3rem;
+    bottom: 6.7rem;
+    right: 2.7rem;
   }
   .pin7 {
     top: 29rem;
-    right: 34rem;
+    right: 34.5rem;
   }
   .pin8 {
-    top: 25rem;
+    top: 26rem;
     left: 23.5rem;
   }
   .pin9 {
     bottom: 5rem;
-    left: 24rem;
+    left: 22.5rem;
   }
   .pin10 {
-    bottom: 5rem;
+    bottom: 5.5rem;
     left: 5rem;
   }
   .pin11 {
     top: 28rem;
-    left: 4.7rem;
+    left: 5rem;
   }
   .pin12 {
     top: 22rem;
-    right: 22.5rem;
+    right: 21rem;
   }
   .pin13 {
-    top: 21.7rem;
+    top: 21.9rem;
     left: 14rem;
   }
   .pin14 {
-    top: 21.5rem;
+    top: 21rem;
     left: 1.7rem;
   }
   .pin15 {
-    top: 18.5rem;
+    top: 18.7rem;
     right: 39rem;
   }
   .pin16 {
-    bottom: 6.5rem;
+    bottom: 6rem;
     right: 19rem;
   }
   .pin17 {
-    bottom: 17rem;
-    left: 4rem;
+    bottom: 17.2rem;
+    left: 2.7rem;
   }
   .pin18 {
-    bottom: 20.5rem;
-    left: 15.5rem;
+    bottom: 20rem;
+    left: 14.5rem;
   }
   .pin19 {
     bottom: 6.5rem;
-    left: 18rem;
+    left: 17rem;
   }
   .pin20 {
-    bottom: 20rem;
+    bottom: 19.5rem;
     left: 28rem;
   }
   .pin21 {
-    bottom: 6rem;
-    left: 28.5rem;
+    bottom: 5.7rem;
+    left: 27.5rem;
   }
   .pin22 {
     top: 16.5rem;
-    left: 31rem;
+    left: 32.5rem;
   }
   .pin23 {
-    top: 17rem;
-    right: 22.5rem;
+    top: 16.5rem;
+    right: 23rem;
   }
   .pin24 {
     bottom: 15.5rem;
     right: 19rem;
   }
   .pin25 {
-    bottom: 4.5rem;
-    right: 15.5rem;
+    bottom: 4.3rem;
+    right: 14.5rem;
   }
   .pin26 {
     top: 17.5rem;
-    right: 10.5rem;
+    right: 10rem;
   }
   .pin27 {
-    top: 17rem;
-    right: 4.5rem;
+    top: 16.8rem;
+    right: 4rem;
   }
   .pin28 {
-    top: 20rem;
+    top: 19.7rem;
     right: 6rem;
   }
   .pin29 {
-    top: 24rem;
-    right: 7rem;
+    top: 24.2rem;
+    right: 6.5rem;
   }
   .pin30 {
-    top: 26.5rem;
-    right: 1.8rem;
+    top: 26.7rem;
+    right: 1.7rem;
   }
   .pin31 {
     bottom: 11.5rem;
     right: 10rem;
+  }
+  .site-footer {
+    bottom: 2rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main-section {
+    position: relative;
+    z-index: 1;
+    width: 1024px;
+    height: 768px;
+    margin: 2rem auto 0rem auto;
+  }
+  video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: inherit;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  .header {
+    top: 1rem;
+  }
+  .pin1 {
+    top: 19.6rem;
+    left: 7rem;
+  }
+  .pin2 {
+    top: 20rem;
+    left: 0.5rem;
+  }
+  .pin3 {
+    top: 18rem;
+    left: 2.2rem;
+  }
+  .pin4 {
+    top: 56%;
+    left: 85%;
+    background-color: green;
+  }
+  .pin5 {
+    top: 66%;
+    left: 34%;
+    background-color: green;
+  }
+  .pin6 {
+    bottom: 8.5rem;
+    right: 2.8rem;
+  }
+  .pin7 {
+    top: 28rem;
+    right: 30rem;
+  }
+  .pin8 {
+    top: 25rem;
+    left: 21rem;
+  }
+  .pin9 {
+    bottom: 7rem;
+    left: 20rem;
+  }
+  .pin10 {
+    bottom: 7.5rem;
+    left: 3.5rem;
+  }
+  .pin11 {
+    top: 27.5rem;
+    left: 4.5rem;
+  }
+  .pin12 {
+    top: 22rem;
+    right: 20rem;
+  }
+  .pin13 {
+    top: 21.7rem;
+    left: 11rem;
+  }
+  .pin14 {
+    top: 21.7rem;
+    left: 1.2rem;
+  }
+  .pin15 {
+    top: 19rem;
+    right: 35rem;
+  }
+  .pin16 {
+    bottom: 8rem;
+    right: 17.7rem;
+  }
+  .pin17 {
+    bottom: 17.7rem;
+    left: 2rem;
+  }
+  .pin18 {
+    bottom: 20.8rem;
+    left: 12rem;
+  }
+  .pin19 {
+    bottom: 8.5rem;
+    left: 15.5rem;
+  }
+  .pin20 {
+    bottom: 20.5rem;
+    left: 25rem;
+  }
+  .pin21 {
+    bottom: 7.5rem;
+    left: 24.5rem;
+  }
+  .pin22 {
+    top: 17rem;
+    left: 29rem;
+  }
+  .pin23 {
+    top: 17rem;
+    right: 19.7rem;
+  }
+  .pin24 {
+    bottom: 16.5rem;
+    right: 16.2rem;
+  }
+  .pin25 {
+    bottom: 6.5rem;
+    right: 14.3rem;
+  }
+  .pin26 {
+    top: 18.2rem;
+    right: 8rem;
+  }
+  .pin27 {
+    top: 17.7rem;
+    right: 3rem;
+  }
+  .pin28 {
+    top: 20.5rem;
+    right: 4rem;
+  }
+  .pin29 {
+    top: 24rem;
+    right: 5rem;
+  }
+  .pin30 {
+    top: 26.5rem;
+    right: 1.6rem;
+  }
+  .pin31 {
+    bottom: 13rem;
+    right: 10rem;
+  }
+  .site-footer {
+    bottom: 4rem;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -466,7 +601,7 @@ video {
   }
   .pin9 {
     bottom: 5.3rem;
-    left: 21.4rem;
+    left: 19.5rem;
   }
   .pin10 {
     bottom: 5.5rem;
@@ -483,5 +618,558 @@ video {
   .pin13 {
     top: 20rem;
     left: 13rem;
+  }
+  .pin14 {
+    top: 19.8rem;
+    left: 1rem;
+  }
+  .pin15 {
+    top: 17rem;
+    right: 34rem;
+  }
+  .pin16 {
+    bottom: 6.5rem;
+    right: 16rem;
+  }
+  .pin17 {
+    bottom: 15.5rem;
+    left: 2rem;
+  }
+  .pin18 {
+    bottom: 18.7rem;
+    left: 12rem;
+  }
+  .pin19 {
+    bottom: 6.5rem;
+    left: 14rem;
+  }
+  .pin20 {
+    bottom: 18.5rem;
+    left: 24rem;
+  }
+  .pin21 {
+    bottom: 6rem;
+    left: 24rem;
+  }
+  .pin22 {
+    top: 15.5rem;
+    left: 28rem;
+  }
+  .pin23 {
+    top: 15.5rem;
+    right: 19.7rem;
+  }
+  .pin24 {
+    bottom: 14.7rem;
+    right: 16.5rem;
+  }
+  .pin25 {
+    bottom: 5rem;
+    right: 13rem;
+  }
+  .pin26 {
+    top: 17rem;
+    right: 8rem;
+  }
+  .pin27 {
+    top: 16.5rem;
+    right: 3rem;
+  }
+  .pin28 {
+    top: 19rem;
+    right: 4.5rem;
+  }
+  .pin29 {
+    top: 21.5rem;
+    right: 5.5rem;
+  }
+  .pin30 {
+    top: 24rem;
+    right: 1.6rem;
+  }
+  .pin31 {
+    bottom: 11rem;
+    right: 9rem;
+  }
+  .site-footer {
+    bottom: 2.5rem;
+  }
+}
+@media screen and (max-width: 1010px) {
+  .main-section {
+    position: relative;
+    z-index: 1;
+    width: 890px;
+    height: 700px;
+    margin: 2rem auto 0rem auto;
+  }
+  video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: inherit;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  .header {
+    top: 1.5rem;
+  }
+  .pin a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.5rem;
+  }
+  .pin1 {
+    top: 18rem;
+    left: 6rem;
+  }
+  .pin2 {
+    top: 18.3rem;
+    left: 0.3rem;
+  }
+  .pin3 {
+    top: 16.5rem;
+    left: 1.3rem;
+  }
+  .pin4 {
+    top: 56%;
+    left: 85%;
+    background-color: green;
+  }
+  .pin5 {
+    top: 66%;
+    left: 34%;
+    background-color: green;
+  }
+  .pin6 {
+    bottom: 8.3rem;
+    right: 2.5rem;
+  }
+  .pin7 {
+    top: 25.5rem;
+    right: 26rem;
+  }
+  .pin8 {
+    top: 23rem;
+    left: 18.5rem;
+  }
+  .pin9 {
+    bottom: 7.3rem;
+    left: 17.5rem;
+  }
+  .pin10 {
+    bottom: 7.3rem;
+    left: 4rem;
+  }
+  .pin11 {
+    top: 25rem;
+    left: 3.5rem;
+  }
+  .pin12 {
+    top: 20.3rem;
+    right: 15.7rem;
+  }
+  .pin13 {
+    top: 20.1rem;
+    left: 10rem;
+  }
+  .pin14 {
+    top: 19.8rem;
+    left: 0.8rem;
+  }
+  .pin15 {
+    top: 17.5rem;
+    right: 30rem;
+  }
+  .pin16 {
+    bottom: 8rem;
+    right: 15.3rem;
+  }
+  .pin17 {
+    bottom: 16.2rem;
+    left: 2rem;
+  }
+  .pin18 {
+    bottom: 18.7rem;
+    left: 12rem;
+  }
+  .pin19 {
+    bottom: 8rem;
+    left: 12.5rem;
+  }
+  .pin20 {
+    bottom: 18.6rem;
+    left: 22rem;
+  }
+  .pin21 {
+    bottom: 8rem;
+    left: 21.5rem;
+  }
+  .pin22 {
+    top: 15.7rem;
+    left: 25.5rem;
+  }
+  .pin23 {
+    top: 15.7rem;
+    right: 17rem;
+  }
+  .pin24 {
+    bottom: 15.2rem;
+    right: 14.2rem;
+  }
+  .pin25 {
+    bottom: 6.6rem;
+    right: 12rem;
+  }
+  .pin26 {
+    top: 17rem;
+    right: 7.5rem;
+  }
+  .pin27 {
+    top: 16.5rem;
+    right: 2.7rem;
+  }
+  .pin28 {
+    top: 18.7rem;
+    right: 4.5rem;
+  }
+  .pin29 {
+    top: 21.7rem;
+    right: 5rem;
+  }
+  .pin30 {
+    top: 24rem;
+    right: 1.6rem;
+  }
+  .pin31 {
+    bottom: 12rem;
+    right: 8.5rem;
+  }
+  .site-footer {
+    bottom: 4rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .main-section {
+    position: relative;
+    z-index: 1;
+    width: 768px;
+    height: 700px;
+    margin: 2rem auto 0rem auto;
+  }
+  video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: inherit;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  .header {
+    top: 3.3rem;
+  }
+  .pin {
+  background-color: #332e84;
+  border-radius: 15px;
+  color: #fff;
+  padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+  width: max-content;
+  opacity: 0.9;
+  position: absolute; 
+}
+  .pin a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.5rem;
+  }
+  .pin1 {
+    top: 18.1rem;
+    left: 5rem;
+}
+.pin2 {
+     top: 18.3rem;
+     left: 0.3rem;
+}
+.pin3 {
+    top: 17rem;
+    left: 1.3rem;
+}
+.pin4 {
+     top: 56%;
+     left: 85%;
+     background-color: green;
+}
+.pin5 {
+     top: 66%;
+     left: 34%;
+     background-color: green;
+}
+.pin6 {
+     bottom: 10rem;
+     right: 2rem;
+}
+.pin7 {
+     top: 25rem;
+     right: 23rem;
+}
+.pin8 {
+     top: 23rem;
+     left: 17rem;
+}
+.pin9 {
+     bottom: 9rem;
+     left: 15rem;
+}
+.pin10 {
+     bottom: 9rem;
+     left: 3rem;
+}
+.pin11 {
+     top: 24.3rem;
+     left: 3.3rem;
+}
+.pin12 {
+     top: 20.3rem;
+     right: 14rem;
+}
+.pin13 {
+     top: 20.1rem;
+     left: 8.5rem;
+}
+.pin14 {
+     top: 19.8rem;
+     left: 0.8rem;
+}
+.pin15 {
+     top: 17.5rem;
+     right: 25.7rem;
+}
+.pin16 {
+    bottom: 9.7rem;
+    right: 13rem;
+}
+.pin17 {
+     bottom: 16.6rem;
+     left: 1rem;
+}
+.pin18 {
+     bottom: 18.7rem;
+     left: 11.7rem;
+}
+.pin19 {
+     bottom: 10rem;
+     left: 10.5rem;
+}
+.pin20 {
+     bottom: 18.7rem;
+     left: 19rem;
+}
+.pin21 {
+     bottom: 9.8rem;
+     left: 19rem;
+}
+.pin22 {
+     top: 16.5rem;
+     left: 22rem;
+}
+.pin23 {
+     top: 16.5rem;
+     right: 15rem;
+}
+.pin24 {
+     bottom: 15.9rem;
+    right: 12rem;
+}
+.pin25 {
+     bottom: 8.5rem;
+     right: 10rem;
+}
+.pin26 {
+     top: 17.5rem;
+     right: 6rem;
+}
+.pin27 {
+     top: 17.1rem;
+     right: 2rem;
+}
+.pin28 {
+     top: 19rem;
+     right: 3.5rem;
+}
+.pin29 {
+     top: 21.7rem;
+     right: 4rem;
+}
+.pin30 {
+     top: 24rem;
+     right: 1.5rem;
+}
+.pin31 {
+     bottom: 13.2rem;
+     right: 7rem;
+     background:black;
+  }
+  .site-footer {
+    bottom: 4rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .main-section {
+    position: relative;
+    z-index: 1;
+    width: 1000px;
+    height: 700px;
+    margin: 2rem auto 0rem auto;
+  }
+  video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: inherit;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  .pin a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.5rem;
+  }
+  .pin1 {
+    top: 17.5rem;
+    left: 6.5rem;
+  }
+  .pin2 {
+    top: 18rem;
+    left: 0.5rem;
+  }
+  .pin3 {
+    top: 16.5rem;
+    left: 2rem;
+  }
+  .pin4 {
+    top: 56%;
+    left: 85%;
+    background-color: green;
+  }
+  .pin5 {
+    top: 66%;
+    left: 34%;
+    background-color: green;
+  }
+  .pin6 {
+    bottom: 6.7rem;
+    right: 3rem;
+  }
+  .pin7 {
+    top: 26rem;
+    right: 30rem;
+  }
+  .pin8 {
+    top: 23rem;
+    left: 20.5rem;
+  }
+  .pin9 {
+    bottom: 5.3rem;
+    left: 19.5rem;
+  }
+  .pin10 {
+    bottom: 5.5rem;
+    left: 5rem;
+  }
+  .pin11 {
+    top: 25.5rem;
+    left: 4rem;
+  }
+  .pin12 {
+    top: 20.5rem;
+    right: 19rem;
+  }
+  .pin13 {
+    top: 20rem;
+    left: 13rem;
+  }
+  .pin14 {
+    top: 19.8rem;
+    left: 1rem;
+  }
+  .pin15 {
+    top: 17rem;
+    right: 34rem;
+  }
+  .pin16 {
+    bottom: 6.5rem;
+    right: 16rem;
+  }
+  .pin17 {
+    bottom: 15.5rem;
+    left: 2rem;
+  }
+  .pin18 {
+    bottom: 18.7rem;
+    left: 12rem;
+  }
+  .pin19 {
+    bottom: 6.5rem;
+    left: 14rem;
+  }
+  .pin20 {
+    bottom: 18.5rem;
+    left: 24rem;
+  }
+  .pin21 {
+    bottom: 6rem;
+    left: 24rem;
+  }
+  .pin22 {
+    top: 15.5rem;
+    left: 28rem;
+  }
+  .pin23 {
+    top: 15.5rem;
+    right: 19.7rem;
+  }
+  .pin24 {
+    bottom: 14.7rem;
+    right: 16.5rem;
+  }
+  .pin25 {
+    bottom: 5rem;
+    right: 13rem;
+  }
+  .pin26 {
+    top: 17rem;
+    right: 8rem;
+  }
+  .pin27 {
+    top: 16.5rem;
+    right: 3rem;
+  }
+  .pin28 {
+    top: 19rem;
+    right: 4.5rem;
+  }
+  .pin29 {
+    top: 21.5rem;
+    right: 5.5rem;
+  }
+  .pin30 {
+    top: 24rem;
+    right: 1.6rem;
+  }
+  .pin31 {
+    bottom: 11rem;
+    right: 9rem;
+  }
+  .site-footer {
+    bottom: 2.5rem;
   }
 }
