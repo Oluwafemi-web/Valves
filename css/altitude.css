@@ -220,7 +220,7 @@ video {
   padding: 10px;
 }
 .altitude-content-img img {
-  width: 100%;
+  width: 80%;
 }
 
 @media screen and (max-width: 1200px) {
