@@ -69,7 +69,7 @@ video {
   margin: 10px;
 }
 .header img {
-  width: 12%;
+  width: 75%;
 }
 
 .nav a {
@@ -157,13 +157,13 @@ video {
 .product {
   background-color: #fff;
   color: #42469d;
-  padding: 4px;
+  padding: 10px;
   border-radius: 15px;
   width: 200px;
   font-weight: 700;
   display: flex;
   align-items: center;
-  font-size: 13px;
+  font-size: 17px;
   gap: 10px;
 }
 .product img {
