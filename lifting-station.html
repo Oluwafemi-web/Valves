@@ -159,16 +159,23 @@
             </div>
         </div>
     </section>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <p>Copy the link below to share:</p>
+            <input type="text" value="" id="shareLink" readonly>
+            <button onclick="copyLink()">Copy Link</button>
+            <span onclick="closeModal()" style="cursor: pointer;"><i class="fa-solid fa-xmark"></i></span>
+        </div>
+    </div>
 
     <script src="popup.js"></script>
     <script>
+        // Check if the Web Share API is supported
         if (navigator.share) {
-            // Select the share button
             var shareButton = document.getElementById('shareButton');
-
-            // Add a click event listener to the share button
             shareButton.addEventListener('click', function () {
-                // Call the share method
                 navigator.share({
                     title: 'Sierra',
                     text: 'Sierra Water valves',
@@ -178,9 +185,37 @@
                     .catch((error) => console.error('Error sharing:', error));
             });
         } else {
-            // Fallback for browsers that do not support the Web Share API
             console.warn('Web Share API is not supported in this browser.');
-            // You can provide an alternative sharing method or UI here
+
+            // Fallback for browsers that do not support the Web Share API
+            var shareButton = document.getElementById('shareButton');
+            var modal = document.getElementById('myModal');
+            var shareLinkInput = document.getElementById('shareLink');
+
+            shareButton.addEventListener('click', function () {
+                // Generate the share link (you can customize this)
+                var shareLink = window.location.href;
+
+                // Set the share link in the input field
+                shareLinkInput.value = shareLink;
+
+                // Display the modal
+                modal.style.display = 'flex';
+            });
+        }
+
+        // Function to close the modal
+        function closeModal() {
+            var modal = document.getElementById('myModal');
+            modal.style.display = 'none';
+        }
+
+        // Function to copy the share link to the clipboard
+        function copyLink() {
+            var shareLinkInput = document.getElementById('shareLink');
+            shareLinkInput.select();
+            document.execCommand('copy');
+            alert('Link copied to clipboard!');
         }
     </script>
 

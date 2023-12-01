@@ -1,6 +1,6 @@
 // Select all elements with the class of pin-wrapper
 var pinWrapperElements = document.querySelectorAll(".pin-wrapper");
-console.log(pinWrapperElements);
+// console.log(pinWrapperElements);
 
 // // Popup function
 function valveDetailFunction(element) {
