@@ -109,16 +109,16 @@ video {
   cursor: pointer;
 }
 .one {
-  bottom: 25.5rem;
-  left: 5rem;
+  bottom: 26rem;
+  left: 4rem;
 }
 .two {
-  bottom: 28rem;
-  left: 9.5rem;
+  bottom: 29rem;
+  left: 8.5rem;
 }
 .three {
-  top: 7.5rem;
-  right: 21.5rem;
+  top: 6.5rem;
+  right: 25rem;
 }
 .fa-solid {
   color: #43467d;
@@ -289,16 +289,16 @@ video {
     z-index: -1;
   }
   .one {
-    bottom: 23rem;
-    left: 4rem;
+    bottom: 23.5rem;
+    left: 2rem;
   }
   .two {
     bottom: 26rem;
-    left: 6.5rem;
+    left: 5.5rem;
   }
   .three {
-    top: 7rem;
-    right: 18.5rem;
+    top: 6.5rem;
+    right: 21rem;
   }
   .site-footer {
     bottom: 2.5rem;
@@ -338,16 +338,16 @@ video {
     padding: 10px 1rem;
   }
   .one {
-    bottom: 23rem;
-    left: 3rem;
+    bottom: 23.5rem;
+    left: 2rem;
   }
   .two {
     bottom: 26rem;
-    left: 6rem;
+    left: 5rem;
   }
   .three {
-    top: 8rem;
-    right: 17.5rem;
+    top: 7rem;
+    right: 20rem;
   }
   .bottom-part {
     bottom: 6rem;
@@ -390,12 +390,12 @@ video {
         right: 16rem;
       } */
   .two {
-    bottom: 25.5rem;
-    left: 5rem;
+    bottom: 26rem;
+    left: 3.5rem;
   }
   .three {
-    top: 8.5rem;
-    right: 16rem;
+    top: 8rem;
+    right: 18rem;
   }
   .bottom-part {
     bottom: 7rem;
@@ -438,15 +438,15 @@ video {
     padding: 10px 1rem;
   }
   .one {
-    bottom: 23rem;
-    left: 2.5rem;
+    bottom: 23.5rem;
+    left: 1.5rem;
   }
   .two {
     /* bottom: 20rem; */
-    left: 4rem;
+    left: 3rem;
   }
   .three {
-    right: 15rem;
+    right: 17.5rem;
   }
   .bottom-part {
     bottom: 8rem;
@@ -494,15 +494,15 @@ video {
   }
   .one {
     /* top: 9rem; */
-    left: 1.5rem;
+    left: 0.5rem;
   }
   .two {
-    bottom: 24.5rem;
+    bottom: 25.5rem;
     left: 2rem;
   }
   .three {
-    top: 11rem;
-    right: 13rem;
+    top: 10.5rem;
+    right: 15rem;
   }
   .bottom-part {
     bottom: 9.5rem;
@@ -569,16 +569,16 @@ video {
     width: 10rem;
   }
   .one {
-    bottom: 23rem;
-    left: 3rem;
+    bottom: 24rem;
+    left: 2rem;
   }
   .two {
-    bottom: 25.5rem;
-    left: 7rem;
+    bottom: 26.5rem;
+    left: 6rem;
   }
   .three {
-    top: 8rem;
-    right: 18rem;
+    top: 7.5rem;
+    right: 20rem;
   }
   .bottom-part {
     bottom: 5rem;
