@@ -110,7 +110,7 @@ video {
 }
 .one {
   top: 9rem;
-  right: 23rem;
+  right: 25rem;
 }
 .fa-solid {
   color: #43467d;
@@ -281,8 +281,8 @@ video {
     z-index: -1;
   }
   .one {
-    top: 8rem;
-    right: 19rem;
+    top: 9rem;
+    right: 20rem;
   }
 
   .site-footer {
@@ -323,7 +323,7 @@ video {
     padding: 10px 1rem;
   }
   .one {
-    top: 8.5rem;
+    top: 9.5rem;
     right: 18rem;
   }
   .bottom-part {
@@ -364,7 +364,7 @@ video {
   }
   .one {
     top: 10rem;
-    right: 17rem;
+    right: 16rem;
   }
 
   .bottom-part {
@@ -408,8 +408,8 @@ video {
     padding: 10px 1rem;
   }
   .one {
-    top: 9.5rem;
-    right: 16rem;
+    top: 10.5rem;
+    right: 15rem;
   }
   .bottom-part {
     bottom: 8rem;
@@ -450,7 +450,7 @@ video {
   }
   .one {
     top: 11rem;
-    right: 13.5rem;
+    right: 11.5rem;
   }
   .bottom-part {
     bottom: 9.5rem;
@@ -517,8 +517,8 @@ video {
     width: 10rem;
   }
   .one {
-    top: 8rem;
-    right: 18.5rem;
+    top: 9rem;
+    right: 19.5rem;
   }
   .bottom-part {
     bottom: 5rem;
