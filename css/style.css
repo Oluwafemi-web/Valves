@@ -93,7 +93,7 @@ video {
   color: #fff;
   padding: 0.2rem 0.5rem 0.2rem 0.5rem;
   width: max-content;
-  opacity: 0.9;
+  opacity: 1;
   position: absolute;
 }
 
@@ -1518,16 +1518,16 @@ video {
   .pin1 {
     top: 27rem;
     left: 16rem;
-}
+  }
 
-.pin2 {
+  .pin2 {
     top: 29rem;
     left: 5rem;
-}
+  }
 
-.pin3 {
-     top: 25.5rem;
-     left: 7rem;
+  .pin3 {
+    top: 25.5rem;
+    left: 7rem;
   }
 
   .pin4 {
@@ -1540,136 +1540,136 @@ video {
     top: 66%;
     left: 34%;
     background-color: green;
-}
+  }
 
-.pin6 {
-     bottom: -22rem;
-     right: 6rem;
-}
+  .pin6 {
+    bottom: -22rem;
+    right: 6rem;
+  }
 
-.pin7 {
-     top: 46rem;
-     left: 53rem;
-}
+  .pin7 {
+    top: 46rem;
+    left: 53rem;
+  }
 
-.pin8 {
-     top: 40rem;
-     left: 46rem;
-}
+  .pin8 {
+    top: 40rem;
+    left: 46rem;
+  }
 
-.pin9 {
-     bottom: 5.5rem;
-     left: 50rem;
-}
+  .pin9 {
+    bottom: 5.5rem;
+    left: 50rem;
+  }
 
-.pin10 {
-     bottom: -24rem;
-     left: 10rem;
-}
+  .pin10 {
+    bottom: -24rem;
+    left: 10rem;
+  }
 
-.pin11 {
-     top:47rem;
-     left: 12rem;
-}
+  .pin11 {
+    top: 47rem;
+    left: 12rem;
+  }
 
-.pin12 {
-     top: 34rem;
-     right: 43rem;
-}
+  .pin12 {
+    top: 34rem;
+    right: 43rem;
+  }
 
-.pin13 {
-     top: 33.5rem;
-     left: 28rem;
-}
+  .pin13 {
+    top: 33.5rem;
+    left: 28rem;
+  }
 
-.pin14 {
-     top: 32rem;
-     left: 4rem;
-}
+  .pin14 {
+    top: 32rem;
+    left: 4rem;
+  }
 
-.pin15 {
-     top: 27rem;
-     left: 57rem;
-}
+  .pin15 {
+    top: 27rem;
+    left: 57rem;
+  }
 
-.pin16 {
-     bottom: -23rem;
-     right: 37rem;
-}
+  .pin16 {
+    bottom: -23rem;
+    right: 37rem;
+  }
 
-.pin17 {
-     bottom: -2rem;
-     left: 8rem;
-}
+  .pin17 {
+    bottom: -2rem;
+    left: 8rem;
+  }
 
-.pin18 {
-     bottom:4rem;
-     left: 29rem;
-}
+  .pin18 {
+    bottom: 4rem;
+    left: 29rem;
+  }
 
-.pin19 {
-     bottom: -21rem;
-     left: 35rem;
-}
+  .pin19 {
+    bottom: -21rem;
+    left: 35rem;
+  }
 
-.pin20 {
-     bottom: -24rem;
-     left: 43rem;
-}
+  .pin20 {
+    bottom: -24rem;
+    left: 43rem;
+  }
 
-.pin21 {
-     bottom: -23rem;
-     left: 50rem;
-}
+  .pin21 {
+    bottom: -23rem;
+    left: 50rem;
+  }
 
-.pin22 {
-     top: 23rem;
-     left: 63rem;
-}
+  .pin22 {
+    top: 23rem;
+    left: 63rem;
+  }
 
-.pin23 {
-     top: 22.5rem;
-     right: 45rem;
-}
+  .pin23 {
+    top: 22.5rem;
+    right: 45rem;
+  }
 
-.pin24 {
-     bottom: -4rem;
-     right: 41rem;
-}
+  .pin24 {
+    bottom: -4rem;
+    right: 41rem;
+  }
 
-.pin25 {
-     bottom: -25rem;
-     right: 32.5rem;
-}
+  .pin25 {
+    bottom: -25rem;
+    right: 32.5rem;
+  }
 
-.pin26 {
-     top: 25rem;
-     right: 23rem;
-}
+  .pin26 {
+    top: 25rem;
+    right: 23rem;
+  }
 
-.pin27 {
-     top: 23rem;
-     right: 15rem;
-}
+  .pin27 {
+    top: 23rem;
+    right: 15rem;
+  }
 
-.pin28 {
-     top: 28rem;
-     right: 17rem;
-}
+  .pin28 {
+    top: 28rem;
+    right: 17rem;
+  }
 
-.pin29 {
+  .pin29 {
     top: 33rem;
     right: 18rem;
-}
+  }
 
-.pin30 {
-     top: 37rem;
-     right: 13rem;
-}
+  .pin30 {
+    top: 37rem;
+    right: 13rem;
+  }
 
-.pin31 {
-     bottom: -12rem;
-     right: 20rem;
+  .pin31 {
+    bottom: -12rem;
+    right: 20rem;
   }
 
   .site-footer {

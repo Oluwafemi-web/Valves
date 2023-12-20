@@ -217,6 +217,7 @@ video {
   position: absolute;
   top: 20%;
   left: 40%;
+  z-index: 2;
 }
 .valve-details a {
   text-decoration: none;
