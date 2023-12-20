@@ -206,7 +206,7 @@ video {
   border-radius: 10%;
   gap: 10px;
   position: absolute;
-  top: 20%;
+  top: 16%;
   left: 40%;
   z-index: 1;
 }
