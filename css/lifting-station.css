@@ -21,10 +21,9 @@ body {
 .main-section {
   position: relative;
   z-index: 1;
-  width: 1800px;
-  height: 1050px;
+  width: 1600px;
+  height: 100%;
   margin: 1rem auto 0rem auto;
-  /* overflow: hidden; */
 }
 video {
   position: absolute;
@@ -49,7 +48,7 @@ video {
   position: absolute;
   width: 100%;
   padding: 10px 1rem;
-  top: 0.5rem;
+  /* top: 0.5rem; */
 }
 .nav {
   display: flex;
@@ -109,16 +108,16 @@ video {
   cursor: pointer;
 }
 .one {
-  top: 5.5rem;
-  left: 4rem;
+  top: 6rem;
+  left: 3rem;
 }
 .two {
-  top: 9rem;
-  right: 30rem;
+  top: 11rem;
+  right: 28rem;
 }
 .three {
-  bottom: 14rem;
-  left: 42rem;
+  bottom: 13rem;
+  left: 40rem;
 }
 .fa-solid {
   color: #43467d;
@@ -657,5 +656,45 @@ video {
     justify-content: space-between;
     font-size: 1.4rem;
     padding: 0rem 1rem;
+  }
+}
+@media screen and (min-width: 1025px) {
+  body {
+    overflow: hidden;
+  }
+  .main-section {
+    position: relative;
+    z-index: 1;
+    width: 90%;
+    height: 100%;
+    margin: 2rem auto 0rem auto;
+  }
+
+  video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: inherit;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  .one {
+    top: 6rem;
+    left: 3rem;
+  }
+  .two {
+    top: 11rem;
+    right: 28rem;
+  }
+  .three {
+    bottom: 16rem;
+    left: 40rem;
+  }
+
+  .site-footer {
+    bottom: 2.5rem;
   }
 }
