@@ -740,3 +740,43 @@ video {
     padding: 0rem 1rem;
   }
 }
+@media screen and (min-width: 1025px) {
+  body {
+    overflow: hidden;
+  }
+  .main-section {
+    position: relative;
+    z-index: 1;
+    width: 90%;
+    height: 100%;
+    margin: 2rem auto 0rem auto;
+  }
+
+  video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: inherit;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  .one {
+    top: 6rem;
+    right: 35rem;
+  }
+  .two {
+    bottom: 32rem;
+    left: 20.5rem;
+  }
+  .three {
+    top: 34rem;
+    right: 24.5rem;
+  }
+
+  .site-footer {
+    bottom: 2.5rem;
+  }
+}

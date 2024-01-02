@@ -783,3 +783,47 @@ video {
     padding: 0rem 1rem;
   }
 }
+@media screen and (min-width: 1025px) {
+  body {
+    overflow: hidden;
+  }
+  .main-section {
+    position: relative;
+    z-index: 1;
+    width: 90%;
+    height: 100%;
+    margin: 2rem auto 0rem auto;
+  }
+
+  video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: inherit;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  .one {
+    bottom: 36rem;
+    left: 9rem;
+  }
+  .two {
+    bottom: 39rem;
+    left: 19.5rem;
+  }
+  .three {
+    top: 11rem;
+    right: 22.5rem;
+  }
+  .four {
+    bottom: 26rem;
+    left: 32.5rem;
+  }
+
+  .site-footer {
+    bottom: 2.5rem;
+  }
+}
