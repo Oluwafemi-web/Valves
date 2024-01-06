@@ -789,7 +789,7 @@ video {
   .main-section {
     position: relative;
     z-index: 1;
-    width: 90%;
+    width: 90vw;
     height: 100%;
     margin: 2rem auto 0rem auto;
   }
@@ -806,23 +806,19 @@ video {
     z-index: -1;
   }
   .one {
-    bottom: 37rem;
-    left: 7rem;
+    bottom: 55%;
+    left: 5%;
   }
   .two {
-    bottom: 41rem;
-    left: 18.5rem;
+    bottom: 61%;
+    left: 10%;
   }
   .three {
-    top: 9rem;
-    right: 36.5rem;
+    top: 12%;
+    right: 32%;
   }
   .four {
-    bottom: 26rem;
-    left: 32.5rem;
-  }
-
-  .site-footer {
-    bottom: 2.5rem;
+    bottom: 37%;
+    left: 23%;
   }
 }

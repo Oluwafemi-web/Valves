@@ -536,7 +536,7 @@ video {
   .main-section {
     position: relative;
     z-index: 1;
-    width: 90%;
+    width: 90vw;
     height: 100%;
     margin: 2rem auto 0rem auto;
   }
@@ -553,8 +553,8 @@ video {
     z-index: -1;
   }
   .one {
-    top: 9rem;
-    right: 36rem;
+    top: 35%;
+    right: 20%;
   }
 
   .site-footer {
@@ -762,4 +762,3 @@ video {
     color: #fff;
   }
 }
-

@@ -605,8 +605,8 @@ body {
   .main-section {
     position: relative;
     z-index: 1;
-    width: 90%;
-    height: 100%;
+    width: 90vw;
+    height: 90%;
     margin: 2rem auto 0rem auto;
   }
 
@@ -622,11 +622,11 @@ body {
     z-index: -1;
   }
   .one {
-    bottom: 9rem;
-    left: 5rem;
+    bottom: 15%;
+    left: -1%;
   }
 
-  .site-footer {
+  /* .site-footer {
     bottom: 2.5rem;
-  }
+  } */
 }

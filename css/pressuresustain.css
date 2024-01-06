@@ -764,16 +764,16 @@ video {
     z-index: -1;
   }
   .one {
-    top: 6rem;
-    right: 35rem;
+    top: 12%;
+    right: 34%;
   }
   .two {
-    bottom: 32rem;
-    left: 20.5rem;
+    bottom: 46%;
+    left: 12%;
   }
   .three {
-    top: 34rem;
-    right: 24.5rem;
+    top: 52%;
+    right: 18%;
   }
 
   .site-footer {

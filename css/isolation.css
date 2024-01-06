@@ -600,7 +600,7 @@ video {
   .main-section {
     position: relative;
     z-index: 1;
-    width: 90%;
+    width: 90vw;
     height: 100%;
     margin: 2rem auto 0rem auto;
   }
@@ -617,8 +617,8 @@ video {
     z-index: -1;
   }
   .one {
-    top: 15rem;
-    right: 43rem;
+    top: 20%;
+    right: 34%;
   }
 
   .site-footer {
