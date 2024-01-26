@@ -47,6 +47,7 @@ video {
   width: 100%;
   padding: 10px 1rem;
   top: 0.5rem;
+  opacity: 0.9;
 }
 .nav {
   display: flex;
